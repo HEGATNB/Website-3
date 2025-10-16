@@ -25,8 +25,9 @@ body {
 }
 
 .my_photo {
-    float: right;
-    margin-left: 35px;
+    float: left;
+    margin-right: 35px;
+    margin-left: 0;
     width: 220px;
     height: 280px;
     border-radius: 15px;
@@ -37,4 +38,8 @@ body {
     height: 280px;
     border-radius: 15px;
     align-items: center;
+}
+
+.logo {
+    margin-bottom: 25px;
 }
