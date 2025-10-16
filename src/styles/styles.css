@@ -44,6 +44,12 @@ body {
     margin-bottom: 25px;
 }
 
+.my_projects {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
 .projects {
     background: white;
     padding: 20px;
