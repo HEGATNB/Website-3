@@ -28,8 +28,8 @@ body {
     float: left;
     margin-right: 35px;
     margin-left: 0;
-    width: 220px;
-    height: 280px;
+    width: 259px;
+    height: 194px;
     border-radius: 15px;
 }
 
@@ -42,4 +42,15 @@ body {
 
 .logo {
     margin-bottom: 25px;
+}
+
+.projects {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    text-align: center;
+    width: 150px;
+    height: 90px;
 }
