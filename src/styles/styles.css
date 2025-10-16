@@ -14,6 +14,7 @@ body {
     font-size: 28px;
     font-weight: 300;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .footer {
@@ -21,4 +22,19 @@ body {
     color: black;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+.my_photo {
+    float: right;
+    margin-left: 35px;
+    width: 220px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.logo_img {
+    width: 220px;
+    height: 280px;
+    border-radius: 15px;
+    align-items: center;
 }
