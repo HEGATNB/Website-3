@@ -17,6 +17,20 @@ body {
     text-align: center;
 }
 
+.buttons_container {
+    display: flex;
+}
+
+.buttons {
+    border-radius: 15px;
+    width: 130px;
+    height: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .footer {
     background: white;
     color: black;
@@ -27,10 +41,11 @@ body {
 .my_photo {
     float: left;
     margin-right: 35px;
-    margin-left: 0;
-    width: 259px;
-    height: 194px;
+    margin-left: 35px;
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
+    border-radius: 50%;
 }
 
 .logo_img {
@@ -42,15 +57,18 @@ body {
 
 .logo {
     margin-bottom: 25px;
+    display: flex;
 }
 
 .my_projects {
-    background: white;
     padding: 20px;
     border-radius: 12px;
+    display: flex;
 }
 
 .projects {
+    margin-left: 50px;
+    margin-right: 50px;
     background: white;
     padding: 20px;
     border-radius: 12px;
@@ -58,5 +76,30 @@ body {
     transition: transform 0.3s ease;
     text-align: center;
     width: 150px;
-    height: 90px;
+    height: 250px;
+}
+
+.name {
+    font-size: 50px;
+    margin-top: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skill {
+    flex: 1;
+    max-width: 200px;
+}
+
+.my_skills {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.download {
+    border-radius: 15px;
+    width: 130px;
+    height: 55px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
